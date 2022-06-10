@@ -15,7 +15,7 @@ lista.toString();
 
 while(1)
 {
-    var pregunta = prompt("Introduce un pais y pulsa aceptar o pulsa cancelar para ver los paices introducidos","");
+    var pregunta = prompt("Introduce un país y pulsa aceptar o pulsa cancelar para ver los países introducidos","");
     if (pregunta == null) 
         break;
     else 
@@ -25,7 +25,7 @@ while(1)
 
 // Mostrar la longitud del arreglo.
 
-document.write("<h1> Cantidad de paises ingresados<h1/> " + lista.length);
+document.write("<h1> Cantidad de países ingresados<h1/> " + lista.length);
 
 
 document.write("<br/> <hr/>")
@@ -35,16 +35,16 @@ document.write("<br/> <hr/>")
 
 for (i = 0; i < lista.length; i = i + 1)
 {
-document.write(lista[i] + "<br/>");
+document.write(lista[i] + "<br/> <hr/>");
 }
 
-document.write(`primer item ${lista[0]} <br/> segundo item ${lista[2]} <br/> ultimo item ${lista[lista.length - 1]}`);
+document.write(`primer ítem: ${lista[0]} <br/> tercer ítem: ${lista[2]} <br/> ultimo ítem: ${lista[lista.length - 1]} <br/>`);
 
 
 
 // Añade en última posición la ciudad de París.
 
-lista.push("Paris");
+lista.push("París");
 
 // Escribe por pantalla el elemento que ocupa la segunda posición.
 
